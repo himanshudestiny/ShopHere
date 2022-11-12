@@ -17,6 +17,7 @@ const Login = () => {
 
 
 const { isAuth, toggleAuth, loginDetails } = useContext(AuthContext);
+console.log(isAuth);
 const [ login, setLogin ] = useState("");
      const handleChange = (e) => {
           const { value } = e.target;
