@@ -58,6 +58,7 @@ const Body = () => {
         womenproductsthree().then((res) => setWomenthree(res.data));
     },[])
     console.log(womenone);
+    console.log(womentwo);
     return (
         <Box>
             <Grid templateColumns='250px 938px' gap={8} ml='40' mt='4'>
